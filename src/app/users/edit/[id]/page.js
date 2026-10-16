@@ -48,7 +48,7 @@ function editUser() {
 
     return (
         <>
-            <h3>add user</h3>
+            <h3>edit user</h3>
 
             <form onSubmit={handleSubmit} method="POST">
                 <input type="text" value={data.name} name="name" placeholder="name" onChange={handleChange} />
